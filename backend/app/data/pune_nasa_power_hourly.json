@@ -1,0 +1,1682 @@
+[
+  {
+    "timestamp_ist": "2024-03-01T05:30:00+05:30",
+    "timestamp_hour": 5,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 26.44,
+    "humidity_pct": 46.97,
+    "wind_speed_ms": 0.35,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-01T06:30:00+05:30",
+    "timestamp_hour": 6,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 25.81,
+    "humidity_pct": 48.98,
+    "wind_speed_ms": 0.56,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-01T07:30:00+05:30",
+    "timestamp_hour": 7,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 25.06,
+    "humidity_pct": 52.28,
+    "wind_speed_ms": 0.89,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-01T08:30:00+05:30",
+    "timestamp_hour": 8,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 24.34,
+    "humidity_pct": 54.38,
+    "wind_speed_ms": 1.22,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-01T09:30:00+05:30",
+    "timestamp_hour": 9,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 23.7,
+    "humidity_pct": 56.43,
+    "wind_speed_ms": 1.48,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-01T10:30:00+05:30",
+    "timestamp_hour": 10,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 23.16,
+    "humidity_pct": 57.29,
+    "wind_speed_ms": 1.74,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-01T11:30:00+05:30",
+    "timestamp_hour": 11,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 8.95,
+    "temp_c": 23.1,
+    "humidity_pct": 57.19,
+    "wind_speed_ms": 2.03,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-01T12:30:00+05:30",
+    "timestamp_hour": 12,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 133.75,
+    "temp_c": 25.42,
+    "humidity_pct": 43.85,
+    "wind_speed_ms": 3.18,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-01T13:30:00+05:30",
+    "timestamp_hour": 13,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 345.45,
+    "temp_c": 28.51,
+    "humidity_pct": 34.09,
+    "wind_speed_ms": 4.06,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-01T14:30:00+05:30",
+    "timestamp_hour": 14,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 509.55,
+    "temp_c": 31.41,
+    "humidity_pct": 29.42,
+    "wind_speed_ms": 4.2,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-01T15:30:00+05:30",
+    "timestamp_hour": 15,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 680.83,
+    "temp_c": 33.33,
+    "humidity_pct": 27.27,
+    "wind_speed_ms": 3.86,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-01T16:30:00+05:30",
+    "timestamp_hour": 16,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 773.6,
+    "temp_c": 34.4,
+    "humidity_pct": 26.04,
+    "wind_speed_ms": 3.39,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-01T17:30:00+05:30",
+    "timestamp_hour": 17,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 718.72,
+    "temp_c": 34.75,
+    "humidity_pct": 25.4,
+    "wind_speed_ms": 2.98,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-01T18:30:00+05:30",
+    "timestamp_hour": 18,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 678.83,
+    "temp_c": 34.69,
+    "humidity_pct": 25.43,
+    "wind_speed_ms": 2.92,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-01T19:30:00+05:30",
+    "timestamp_hour": 19,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 556.05,
+    "temp_c": 33.48,
+    "humidity_pct": 27.55,
+    "wind_speed_ms": 3.02,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-01T20:30:00+05:30",
+    "timestamp_hour": 20,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 402.05,
+    "temp_c": 32.49,
+    "humidity_pct": 29.98,
+    "wind_speed_ms": 3.22,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-01T21:30:00+05:30",
+    "timestamp_hour": 21,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 248.38,
+    "temp_c": 31.48,
+    "humidity_pct": 33.04,
+    "wind_speed_ms": 3.25,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-01T22:30:00+05:30",
+    "timestamp_hour": 22,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 64.78,
+    "temp_c": 29.35,
+    "humidity_pct": 43.53,
+    "wind_speed_ms": 2.31,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-01T23:30:00+05:30",
+    "timestamp_hour": 23,
+    "date": "2024-03-01",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 27.24,
+    "humidity_pct": 52.13,
+    "wind_speed_ms": 2.35,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T00:30:00+05:30",
+    "timestamp_hour": 0,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 26.18,
+    "humidity_pct": 56.5,
+    "wind_speed_ms": 2.4,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T01:30:00+05:30",
+    "timestamp_hour": 1,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 25.1,
+    "humidity_pct": 61.65,
+    "wind_speed_ms": 2.26,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T02:30:00+05:30",
+    "timestamp_hour": 2,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 24.09,
+    "humidity_pct": 66.25,
+    "wind_speed_ms": 2.13,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T03:30:00+05:30",
+    "timestamp_hour": 3,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 23.15,
+    "humidity_pct": 70.22,
+    "wind_speed_ms": 2.16,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T04:30:00+05:30",
+    "timestamp_hour": 4,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 22.64,
+    "humidity_pct": 72.35,
+    "wind_speed_ms": 2.24,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T05:30:00+05:30",
+    "timestamp_hour": 5,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 22.18,
+    "humidity_pct": 73.82,
+    "wind_speed_ms": 2.28,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T06:30:00+05:30",
+    "timestamp_hour": 6,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 21.69,
+    "humidity_pct": 75.44,
+    "wind_speed_ms": 2.09,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T07:30:00+05:30",
+    "timestamp_hour": 7,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 21.17,
+    "humidity_pct": 76.96,
+    "wind_speed_ms": 1.98,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T08:30:00+05:30",
+    "timestamp_hour": 8,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 20.74,
+    "humidity_pct": 77.91,
+    "wind_speed_ms": 1.97,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T09:30:00+05:30",
+    "timestamp_hour": 9,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 20.33,
+    "humidity_pct": 78.87,
+    "wind_speed_ms": 1.91,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T10:30:00+05:30",
+    "timestamp_hour": 10,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 19.82,
+    "humidity_pct": 80.03,
+    "wind_speed_ms": 1.77,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T11:30:00+05:30",
+    "timestamp_hour": 11,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 12.02,
+    "temp_c": 20.1,
+    "humidity_pct": 77.71,
+    "wind_speed_ms": 1.63,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T12:30:00+05:30",
+    "timestamp_hour": 12,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 157.2,
+    "temp_c": 22.81,
+    "humidity_pct": 61.57,
+    "wind_speed_ms": 1.74,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T13:30:00+05:30",
+    "timestamp_hour": 13,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 376.12,
+    "temp_c": 26.78,
+    "humidity_pct": 43.54,
+    "wind_speed_ms": 1.49,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T14:30:00+05:30",
+    "timestamp_hour": 14,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 600.58,
+    "temp_c": 29.99,
+    "humidity_pct": 33.7,
+    "wind_speed_ms": 2.22,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T15:30:00+05:30",
+    "timestamp_hour": 15,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 764.38,
+    "temp_c": 31.88,
+    "humidity_pct": 29.23,
+    "wind_speed_ms": 3.57,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T16:30:00+05:30",
+    "timestamp_hour": 16,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 825.2,
+    "temp_c": 33.04,
+    "humidity_pct": 26.78,
+    "wind_speed_ms": 4.93,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T17:30:00+05:30",
+    "timestamp_hour": 17,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 842.92,
+    "temp_c": 33.6,
+    "humidity_pct": 25.55,
+    "wind_speed_ms": 6.26,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T18:30:00+05:30",
+    "timestamp_hour": 18,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 821.95,
+    "temp_c": 33.42,
+    "humidity_pct": 25.66,
+    "wind_speed_ms": 7.39,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T19:30:00+05:30",
+    "timestamp_hour": 19,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 719.97,
+    "temp_c": 32.58,
+    "humidity_pct": 27.07,
+    "wind_speed_ms": 7.97,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T20:30:00+05:30",
+    "timestamp_hour": 20,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 533.72,
+    "temp_c": 31.16,
+    "humidity_pct": 29.89,
+    "wind_speed_ms": 7.87,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T21:30:00+05:30",
+    "timestamp_hour": 21,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 309.67,
+    "temp_c": 29.21,
+    "humidity_pct": 34.36,
+    "wind_speed_ms": 7.26,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T22:30:00+05:30",
+    "timestamp_hour": 22,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 97.32,
+    "temp_c": 26.61,
+    "humidity_pct": 41.94,
+    "wind_speed_ms": 5.99,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-02T23:30:00+05:30",
+    "timestamp_hour": 23,
+    "date": "2024-03-02",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 23.75,
+    "humidity_pct": 54.8,
+    "wind_speed_ms": 4.11,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T00:30:00+05:30",
+    "timestamp_hour": 0,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 22.37,
+    "humidity_pct": 64.04,
+    "wind_speed_ms": 3.66,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T01:30:00+05:30",
+    "timestamp_hour": 1,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 21.31,
+    "humidity_pct": 72.67,
+    "wind_speed_ms": 3.43,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T02:30:00+05:30",
+    "timestamp_hour": 2,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 20.41,
+    "humidity_pct": 81.47,
+    "wind_speed_ms": 3.31,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T03:30:00+05:30",
+    "timestamp_hour": 3,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 19.85,
+    "humidity_pct": 88.64,
+    "wind_speed_ms": 3.53,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T04:30:00+05:30",
+    "timestamp_hour": 4,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 19.64,
+    "humidity_pct": 92.39,
+    "wind_speed_ms": 3.53,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T05:30:00+05:30",
+    "timestamp_hour": 5,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 19.56,
+    "humidity_pct": 92.61,
+    "wind_speed_ms": 3.82,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T06:30:00+05:30",
+    "timestamp_hour": 6,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 19.43,
+    "humidity_pct": 93.25,
+    "wind_speed_ms": 3.75,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T07:30:00+05:30",
+    "timestamp_hour": 7,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 19.27,
+    "humidity_pct": 92.8,
+    "wind_speed_ms": 3.74,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T08:30:00+05:30",
+    "timestamp_hour": 8,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 19.07,
+    "humidity_pct": 93.15,
+    "wind_speed_ms": 3.65,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T09:30:00+05:30",
+    "timestamp_hour": 9,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 18.83,
+    "humidity_pct": 94.24,
+    "wind_speed_ms": 3.44,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T10:30:00+05:30",
+    "timestamp_hour": 10,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 18.61,
+    "humidity_pct": 95.81,
+    "wind_speed_ms": 3.21,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T11:30:00+05:30",
+    "timestamp_hour": 11,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 14.38,
+    "temp_c": 18.94,
+    "humidity_pct": 94.95,
+    "wind_speed_ms": 3.55,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T12:30:00+05:30",
+    "timestamp_hour": 12,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 161.65,
+    "temp_c": 20.98,
+    "humidity_pct": 82.34,
+    "wind_speed_ms": 5.4,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T13:30:00+05:30",
+    "timestamp_hour": 13,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 348.15,
+    "temp_c": 23.43,
+    "humidity_pct": 67.45,
+    "wind_speed_ms": 6.27,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T14:30:00+05:30",
+    "timestamp_hour": 14,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 521.47,
+    "temp_c": 25.81,
+    "humidity_pct": 56.14,
+    "wind_speed_ms": 6.54,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T15:30:00+05:30",
+    "timestamp_hour": 15,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 691.83,
+    "temp_c": 27.55,
+    "humidity_pct": 48.59,
+    "wind_speed_ms": 6.72,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T16:30:00+05:30",
+    "timestamp_hour": 16,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 838.0,
+    "temp_c": 28.64,
+    "humidity_pct": 43.9,
+    "wind_speed_ms": 6.83,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T17:30:00+05:30",
+    "timestamp_hour": 17,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 894.5,
+    "temp_c": 29.33,
+    "humidity_pct": 40.38,
+    "wind_speed_ms": 6.91,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T18:30:00+05:30",
+    "timestamp_hour": 18,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 879.1,
+    "temp_c": 29.41,
+    "humidity_pct": 39.03,
+    "wind_speed_ms": 6.94,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T19:30:00+05:30",
+    "timestamp_hour": 19,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 765.05,
+    "temp_c": 28.94,
+    "humidity_pct": 38.96,
+    "wind_speed_ms": 6.86,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T20:30:00+05:30",
+    "timestamp_hour": 20,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 574.67,
+    "temp_c": 27.97,
+    "humidity_pct": 40.14,
+    "wind_speed_ms": 6.69,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T21:30:00+05:30",
+    "timestamp_hour": 21,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 340.95,
+    "temp_c": 26.39,
+    "humidity_pct": 43.61,
+    "wind_speed_ms": 6.4,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T22:30:00+05:30",
+    "timestamp_hour": 22,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 106.65,
+    "temp_c": 24.07,
+    "humidity_pct": 50.79,
+    "wind_speed_ms": 5.65,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-03T23:30:00+05:30",
+    "timestamp_hour": 23,
+    "date": "2024-03-03",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 21.53,
+    "humidity_pct": 62.01,
+    "wind_speed_ms": 4.03,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T00:30:00+05:30",
+    "timestamp_hour": 0,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 20.18,
+    "humidity_pct": 68.64,
+    "wind_speed_ms": 3.62,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T01:30:00+05:30",
+    "timestamp_hour": 1,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 18.99,
+    "humidity_pct": 73.88,
+    "wind_speed_ms": 3.21,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T02:30:00+05:30",
+    "timestamp_hour": 2,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 17.9,
+    "humidity_pct": 78.17,
+    "wind_speed_ms": 2.78,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T03:30:00+05:30",
+    "timestamp_hour": 3,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 16.95,
+    "humidity_pct": 81.14,
+    "wind_speed_ms": 2.46,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T04:30:00+05:30",
+    "timestamp_hour": 4,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 16.16,
+    "humidity_pct": 83.17,
+    "wind_speed_ms": 2.33,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T05:30:00+05:30",
+    "timestamp_hour": 5,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 15.52,
+    "humidity_pct": 84.31,
+    "wind_speed_ms": 2.35,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T06:30:00+05:30",
+    "timestamp_hour": 6,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 14.94,
+    "humidity_pct": 85.27,
+    "wind_speed_ms": 2.44,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T07:30:00+05:30",
+    "timestamp_hour": 7,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 14.37,
+    "humidity_pct": 86.33,
+    "wind_speed_ms": 2.46,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T08:30:00+05:30",
+    "timestamp_hour": 8,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 13.81,
+    "humidity_pct": 87.54,
+    "wind_speed_ms": 2.37,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T09:30:00+05:30",
+    "timestamp_hour": 9,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 13.29,
+    "humidity_pct": 88.04,
+    "wind_speed_ms": 2.3,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T10:30:00+05:30",
+    "timestamp_hour": 10,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 12.91,
+    "humidity_pct": 87.1,
+    "wind_speed_ms": 2.2,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T11:30:00+05:30",
+    "timestamp_hour": 11,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 17.5,
+    "temp_c": 13.62,
+    "humidity_pct": 81.77,
+    "wind_speed_ms": 2.02,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T12:30:00+05:30",
+    "timestamp_hour": 12,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 212.43,
+    "temp_c": 17.46,
+    "humidity_pct": 60.43,
+    "wind_speed_ms": 2.94,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T13:30:00+05:30",
+    "timestamp_hour": 13,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 462.83,
+    "temp_c": 21.18,
+    "humidity_pct": 43.97,
+    "wind_speed_ms": 3.64,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T14:30:00+05:30",
+    "timestamp_hour": 14,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 688.78,
+    "temp_c": 24.26,
+    "humidity_pct": 35.2,
+    "wind_speed_ms": 3.35,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T15:30:00+05:30",
+    "timestamp_hour": 15,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 860.25,
+    "temp_c": 27.21,
+    "humidity_pct": 27.25,
+    "wind_speed_ms": 3.38,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T16:30:00+05:30",
+    "timestamp_hour": 16,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 964.28,
+    "temp_c": 29.31,
+    "humidity_pct": 22.55,
+    "wind_speed_ms": 3.97,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T17:30:00+05:30",
+    "timestamp_hour": 17,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 964.85,
+    "temp_c": 30.48,
+    "humidity_pct": 20.38,
+    "wind_speed_ms": 4.7,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T18:30:00+05:30",
+    "timestamp_hour": 18,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 906.65,
+    "temp_c": 30.89,
+    "humidity_pct": 19.41,
+    "wind_speed_ms": 5.42,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T19:30:00+05:30",
+    "timestamp_hour": 19,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 792.1,
+    "temp_c": 30.58,
+    "humidity_pct": 19.09,
+    "wind_speed_ms": 5.96,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T20:30:00+05:30",
+    "timestamp_hour": 20,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 598.8,
+    "temp_c": 29.67,
+    "humidity_pct": 19.32,
+    "wind_speed_ms": 6.23,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T21:30:00+05:30",
+    "timestamp_hour": 21,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 359.98,
+    "temp_c": 28.1,
+    "humidity_pct": 20.25,
+    "wind_speed_ms": 5.98,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T22:30:00+05:30",
+    "timestamp_hour": 22,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 117.22,
+    "temp_c": 24.88,
+    "humidity_pct": 27.4,
+    "wind_speed_ms": 4.19,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-04T23:30:00+05:30",
+    "timestamp_hour": 23,
+    "date": "2024-03-04",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 20.73,
+    "humidity_pct": 40.61,
+    "wind_speed_ms": 3.39,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T00:30:00+05:30",
+    "timestamp_hour": 0,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 19.25,
+    "humidity_pct": 45.88,
+    "wind_speed_ms": 3.14,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T01:30:00+05:30",
+    "timestamp_hour": 1,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 17.98,
+    "humidity_pct": 51.09,
+    "wind_speed_ms": 2.85,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T02:30:00+05:30",
+    "timestamp_hour": 2,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 16.88,
+    "humidity_pct": 55.72,
+    "wind_speed_ms": 2.65,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T03:30:00+05:30",
+    "timestamp_hour": 3,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 15.96,
+    "humidity_pct": 59.08,
+    "wind_speed_ms": 2.51,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T04:30:00+05:30",
+    "timestamp_hour": 4,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 15.33,
+    "humidity_pct": 60.46,
+    "wind_speed_ms": 2.3,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T05:30:00+05:30",
+    "timestamp_hour": 5,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 15.06,
+    "humidity_pct": 59.12,
+    "wind_speed_ms": 1.99,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T06:30:00+05:30",
+    "timestamp_hour": 6,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 14.85,
+    "humidity_pct": 56.41,
+    "wind_speed_ms": 1.74,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T07:30:00+05:30",
+    "timestamp_hour": 7,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 14.46,
+    "humidity_pct": 53.81,
+    "wind_speed_ms": 1.8,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T08:30:00+05:30",
+    "timestamp_hour": 8,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 14.02,
+    "humidity_pct": 51.24,
+    "wind_speed_ms": 1.96,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T09:30:00+05:30",
+    "timestamp_hour": 9,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 13.64,
+    "humidity_pct": 49.06,
+    "wind_speed_ms": 2.12,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T10:30:00+05:30",
+    "timestamp_hour": 10,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 13.29,
+    "humidity_pct": 46.87,
+    "wind_speed_ms": 2.3,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T11:30:00+05:30",
+    "timestamp_hour": 11,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 18.4,
+    "temp_c": 13.95,
+    "humidity_pct": 44.27,
+    "wind_speed_ms": 2.36,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T12:30:00+05:30",
+    "timestamp_hour": 12,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 213.98,
+    "temp_c": 18.55,
+    "humidity_pct": 24.78,
+    "wind_speed_ms": 2.9,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T13:30:00+05:30",
+    "timestamp_hour": 13,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 468.8,
+    "temp_c": 23.27,
+    "humidity_pct": 16.38,
+    "wind_speed_ms": 2.4,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T14:30:00+05:30",
+    "timestamp_hour": 14,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 697.05,
+    "temp_c": 28.29,
+    "humidity_pct": 16.53,
+    "wind_speed_ms": 1.33,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T15:30:00+05:30",
+    "timestamp_hour": 15,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 863.9,
+    "temp_c": 31.06,
+    "humidity_pct": 20.03,
+    "wind_speed_ms": 3.01,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T16:30:00+05:30",
+    "timestamp_hour": 16,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 957.97,
+    "temp_c": 32.79,
+    "humidity_pct": 20.56,
+    "wind_speed_ms": 3.94,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T17:30:00+05:30",
+    "timestamp_hour": 17,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 957.65,
+    "temp_c": 33.9,
+    "humidity_pct": 20.17,
+    "wind_speed_ms": 4.38,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T18:30:00+05:30",
+    "timestamp_hour": 18,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 900.1,
+    "temp_c": 34.35,
+    "humidity_pct": 19.84,
+    "wind_speed_ms": 5.0,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T19:30:00+05:30",
+    "timestamp_hour": 19,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 768.38,
+    "temp_c": 34.02,
+    "humidity_pct": 20.05,
+    "wind_speed_ms": 5.79,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T20:30:00+05:30",
+    "timestamp_hour": 20,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 573.1,
+    "temp_c": 32.82,
+    "humidity_pct": 21.26,
+    "wind_speed_ms": 6.45,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T21:30:00+05:30",
+    "timestamp_hour": 21,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 336.3,
+    "temp_c": 30.66,
+    "humidity_pct": 23.8,
+    "wind_speed_ms": 6.81,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T22:30:00+05:30",
+    "timestamp_hour": 22,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 105.57,
+    "temp_c": 27.24,
+    "humidity_pct": 29.07,
+    "wind_speed_ms": 6.04,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-05T23:30:00+05:30",
+    "timestamp_hour": 23,
+    "date": "2024-03-05",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 23.15,
+    "humidity_pct": 38.13,
+    "wind_speed_ms": 4.61,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T00:30:00+05:30",
+    "timestamp_hour": 0,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 20.86,
+    "humidity_pct": 44.24,
+    "wind_speed_ms": 3.65,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T01:30:00+05:30",
+    "timestamp_hour": 1,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 19.41,
+    "humidity_pct": 49.02,
+    "wind_speed_ms": 3.0,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T02:30:00+05:30",
+    "timestamp_hour": 2,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 18.6,
+    "humidity_pct": 50.94,
+    "wind_speed_ms": 2.63,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T03:30:00+05:30",
+    "timestamp_hour": 3,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 17.95,
+    "humidity_pct": 52.25,
+    "wind_speed_ms": 2.36,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T04:30:00+05:30",
+    "timestamp_hour": 4,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 17.44,
+    "humidity_pct": 53.19,
+    "wind_speed_ms": 2.2,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T05:30:00+05:30",
+    "timestamp_hour": 5,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 17.05,
+    "humidity_pct": 52.87,
+    "wind_speed_ms": 2.12,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T06:30:00+05:30",
+    "timestamp_hour": 6,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 16.72,
+    "humidity_pct": 51.44,
+    "wind_speed_ms": 2.09,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T07:30:00+05:30",
+    "timestamp_hour": 7,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 16.58,
+    "humidity_pct": 48.07,
+    "wind_speed_ms": 2.0,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T08:30:00+05:30",
+    "timestamp_hour": 8,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 16.65,
+    "humidity_pct": 43.42,
+    "wind_speed_ms": 1.82,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T09:30:00+05:30",
+    "timestamp_hour": 9,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 16.77,
+    "humidity_pct": 38.92,
+    "wind_speed_ms": 1.64,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T10:30:00+05:30",
+    "timestamp_hour": 10,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 16.86,
+    "humidity_pct": 35.51,
+    "wind_speed_ms": 1.4,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T11:30:00+05:30",
+    "timestamp_hour": 11,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 18.55,
+    "temp_c": 17.41,
+    "humidity_pct": 34.93,
+    "wind_speed_ms": 1.09,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T12:30:00+05:30",
+    "timestamp_hour": 12,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 213.3,
+    "temp_c": 20.48,
+    "humidity_pct": 25.79,
+    "wind_speed_ms": 1.0,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T13:30:00+05:30",
+    "timestamp_hour": 13,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 462.7,
+    "temp_c": 24.9,
+    "humidity_pct": 18.97,
+    "wind_speed_ms": 0.96,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T14:30:00+05:30",
+    "timestamp_hour": 14,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 688.97,
+    "temp_c": 29.15,
+    "humidity_pct": 18.59,
+    "wind_speed_ms": 3.11,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T15:30:00+05:30",
+    "timestamp_hour": 15,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 859.7,
+    "temp_c": 31.14,
+    "humidity_pct": 18.01,
+    "wind_speed_ms": 4.01,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T16:30:00+05:30",
+    "timestamp_hour": 16,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 959.97,
+    "temp_c": 32.45,
+    "humidity_pct": 17.17,
+    "wind_speed_ms": 4.76,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T17:30:00+05:30",
+    "timestamp_hour": 17,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 969.72,
+    "temp_c": 33.1,
+    "humidity_pct": 16.33,
+    "wind_speed_ms": 5.45,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T18:30:00+05:30",
+    "timestamp_hour": 18,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 913.62,
+    "temp_c": 33.07,
+    "humidity_pct": 15.83,
+    "wind_speed_ms": 6.0,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T19:30:00+05:30",
+    "timestamp_hour": 19,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 781.7,
+    "temp_c": 32.49,
+    "humidity_pct": 15.67,
+    "wind_speed_ms": 6.35,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T20:30:00+05:30",
+    "timestamp_hour": 20,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 585.7,
+    "temp_c": 31.4,
+    "humidity_pct": 15.91,
+    "wind_speed_ms": 6.44,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T21:30:00+05:30",
+    "timestamp_hour": 21,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 347.15,
+    "temp_c": 29.62,
+    "humidity_pct": 17.11,
+    "wind_speed_ms": 6.13,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T22:30:00+05:30",
+    "timestamp_hour": 22,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 108.2,
+    "temp_c": 26.16,
+    "humidity_pct": 23.7,
+    "wind_speed_ms": 4.33,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-06T23:30:00+05:30",
+    "timestamp_hour": 23,
+    "date": "2024-03-06",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 21.74,
+    "humidity_pct": 36.18,
+    "wind_speed_ms": 3.55,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T00:30:00+05:30",
+    "timestamp_hour": 0,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 20.16,
+    "humidity_pct": 41.37,
+    "wind_speed_ms": 3.3,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T01:30:00+05:30",
+    "timestamp_hour": 1,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 18.93,
+    "humidity_pct": 45.45,
+    "wind_speed_ms": 2.95,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T02:30:00+05:30",
+    "timestamp_hour": 2,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 18.01,
+    "humidity_pct": 48.02,
+    "wind_speed_ms": 2.64,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T03:30:00+05:30",
+    "timestamp_hour": 3,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 17.59,
+    "humidity_pct": 47.95,
+    "wind_speed_ms": 2.26,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T04:30:00+05:30",
+    "timestamp_hour": 4,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 17.53,
+    "humidity_pct": 45.86,
+    "wind_speed_ms": 1.73,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T05:30:00+05:30",
+    "timestamp_hour": 5,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 17.41,
+    "humidity_pct": 42.92,
+    "wind_speed_ms": 1.28,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T06:30:00+05:30",
+    "timestamp_hour": 6,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 17.16,
+    "humidity_pct": 40.73,
+    "wind_speed_ms": 1.11,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T07:30:00+05:30",
+    "timestamp_hour": 7,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 16.37,
+    "humidity_pct": 40.71,
+    "wind_speed_ms": 1.31,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T08:30:00+05:30",
+    "timestamp_hour": 8,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 15.78,
+    "humidity_pct": 40.51,
+    "wind_speed_ms": 1.69,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T09:30:00+05:30",
+    "timestamp_hour": 9,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 15.1,
+    "humidity_pct": 40.14,
+    "wind_speed_ms": 2.02,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T10:30:00+05:30",
+    "timestamp_hour": 10,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 14.45,
+    "humidity_pct": 40.97,
+    "wind_speed_ms": 2.3,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T11:30:00+05:30",
+    "timestamp_hour": 11,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 18.15,
+    "temp_c": 14.64,
+    "humidity_pct": 42.23,
+    "wind_speed_ms": 2.46,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T12:30:00+05:30",
+    "timestamp_hour": 12,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 205.43,
+    "temp_c": 19.36,
+    "humidity_pct": 27.24,
+    "wind_speed_ms": 3.2,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T13:30:00+05:30",
+    "timestamp_hour": 13,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 437.02,
+    "temp_c": 24.04,
+    "humidity_pct": 18.25,
+    "wind_speed_ms": 3.55,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T14:30:00+05:30",
+    "timestamp_hour": 14,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 667.33,
+    "temp_c": 28.52,
+    "humidity_pct": 12.62,
+    "wind_speed_ms": 3.08,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T15:30:00+05:30",
+    "timestamp_hour": 15,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 849.8,
+    "temp_c": 31.29,
+    "humidity_pct": 10.76,
+    "wind_speed_ms": 1.96,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T16:30:00+05:30",
+    "timestamp_hour": 16,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 953.25,
+    "temp_c": 33.38,
+    "humidity_pct": 9.61,
+    "wind_speed_ms": 1.58,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T17:30:00+05:30",
+    "timestamp_hour": 17,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 980.7,
+    "temp_c": 34.7,
+    "humidity_pct": 9.51,
+    "wind_speed_ms": 1.98,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T18:30:00+05:30",
+    "timestamp_hour": 18,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 919.4,
+    "temp_c": 35.32,
+    "humidity_pct": 9.65,
+    "wind_speed_ms": 2.3,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T19:30:00+05:30",
+    "timestamp_hour": 19,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 785.35,
+    "temp_c": 35.32,
+    "humidity_pct": 9.98,
+    "wind_speed_ms": 2.72,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T20:30:00+05:30",
+    "timestamp_hour": 20,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 586.42,
+    "temp_c": 34.73,
+    "humidity_pct": 10.77,
+    "wind_speed_ms": 3.39,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T21:30:00+05:30",
+    "timestamp_hour": 21,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 344.98,
+    "temp_c": 33.36,
+    "humidity_pct": 12.51,
+    "wind_speed_ms": 4.09,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T22:30:00+05:30",
+    "timestamp_hour": 22,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 110.32,
+    "temp_c": 29.21,
+    "humidity_pct": 20.95,
+    "wind_speed_ms": 3.41,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-07T23:30:00+05:30",
+    "timestamp_hour": 23,
+    "date": "2024-03-07",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 25.03,
+    "humidity_pct": 29.4,
+    "wind_speed_ms": 4.08,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-08T00:30:00+05:30",
+    "timestamp_hour": 0,
+    "date": "2024-03-08",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 23.52,
+    "humidity_pct": 34.4,
+    "wind_speed_ms": 4.59,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-08T01:30:00+05:30",
+    "timestamp_hour": 1,
+    "date": "2024-03-08",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 21.78,
+    "humidity_pct": 40.8,
+    "wind_speed_ms": 3.95,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-08T02:30:00+05:30",
+    "timestamp_hour": 2,
+    "date": "2024-03-08",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 20.41,
+    "humidity_pct": 45.59,
+    "wind_speed_ms": 3.3,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-08T03:30:00+05:30",
+    "timestamp_hour": 3,
+    "date": "2024-03-08",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 19.43,
+    "humidity_pct": 48.31,
+    "wind_speed_ms": 2.96,
+    "source": "NASA_POWER"
+  },
+  {
+    "timestamp_ist": "2024-03-08T04:30:00+05:30",
+    "timestamp_hour": 4,
+    "date": "2024-03-08",
+    "ghi_w_per_sqm": 0.0,
+    "temp_c": 18.76,
+    "humidity_pct": 49.25,
+    "wind_speed_ms": 2.88,
+    "source": "NASA_POWER"
+  }
+]

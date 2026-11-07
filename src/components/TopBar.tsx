@@ -38,7 +38,7 @@ const TopBar: React.FC = () => {
         {/* Study Area */}
         <div className="text-center">
           <div className="text-[10px] font-semibold text-cs-text">{CITY_CENTER.studyArea}</div>
-          <div className="text-[8px] text-cs-text-muted font-medium">1 km × 1 km Study Area</div>
+          <div className="text-[8px] text-cs-text-muted font-medium">2 km × 2 km Study Area</div>
         </div>
 
         {/* Divider */}

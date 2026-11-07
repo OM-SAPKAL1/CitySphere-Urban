@@ -1,0 +1,55 @@
+{
+  "source": "Census of India 2011, District Census Handbook - Pune (Directorate of Census Operations, Maharashtra)",
+  "pmc_reference": "PMC Electoral & Prabhag Profile 2022 (Prabhag 14 Ghole Road / Shivajinagar)",
+  "ward_name": "Ward 14 (Ghole Road / Shivajinagar)",
+  "ward_census_2011_population": 112450,
+  "projected_2024_population": 128500,
+  "ward_area_sq_km": 7.25,
+  "study_area_sq_km": 4.0,
+  "ward_area_overlap_fraction": 0.552,
+  "study_area_resident_population": 62500,
+  "average_household_size": 4.2,
+  "estimated_households": 14880,
+  "floating_population": {
+    "daytime_peak_addition": 48000,
+    "composition": {
+      "students_higher_ed": 22000,
+      "commercial_shoppers_diners": 16000,
+      "office_workers_admin": 10000
+    }
+  },
+  "diurnal_factors": {
+    "00_03": {
+      "residential": 1.0,
+      "floating": 0.02
+    },
+    "03_06": {
+      "residential": 1.0,
+      "floating": 0.05
+    },
+    "06_09": {
+      "residential": 0.95,
+      "floating": 0.4
+    },
+    "09_12": {
+      "residential": 0.6,
+      "floating": 1.75
+    },
+    "12_15": {
+      "residential": 0.65,
+      "floating": 1.6
+    },
+    "15_18": {
+      "residential": 0.7,
+      "floating": 1.85
+    },
+    "18_21": {
+      "residential": 0.9,
+      "floating": 1.9
+    },
+    "21_24": {
+      "residential": 1.0,
+      "floating": 0.35
+    }
+  }
+}

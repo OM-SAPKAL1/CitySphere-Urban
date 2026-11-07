@@ -1,0 +1,92 @@
+{
+  "source": "AllUrE-India (CSTEP / BEE) Building Energy Database & Western India Urban Benchmarks",
+  "climate_zone": "Composite / Warm-Humid Transition (Pune Urban Region)",
+  "base_cooling_setpoint_c": 25.0,
+  "cooling_sensitivity_pct_per_deg_c": 0.035,
+  "eui_benchmarks": {
+    "residential": {
+      "monthly_kwh_per_capita": 38.0,
+      "daily_kwh_per_capita": 1.267,
+      "peak_coincidence_factor": 0.65
+    },
+    "commercial_office": {
+      "annual_kwh_per_sqm": 135.0,
+      "monthly_kwh_per_sqm": 11.25,
+      "daily_kwh_per_sqm": 0.37
+    },
+    "retail_commercial": {
+      "annual_kwh_per_sqm": 165.0,
+      "monthly_kwh_per_sqm": 13.75,
+      "daily_kwh_per_sqm": 0.452
+    },
+    "educational_institutional": {
+      "annual_kwh_per_sqm": 55.0,
+      "monthly_kwh_per_sqm": 4.58,
+      "daily_kwh_per_sqm": 0.151
+    },
+    "hospital_healthcare": {
+      "annual_kwh_per_sqm": 210.0,
+      "monthly_kwh_per_sqm": 17.5,
+      "daily_kwh_per_sqm": 0.575
+    },
+    "mixed_default": {
+      "annual_kwh_per_sqm": 90.0,
+      "monthly_kwh_per_sqm": 7.5,
+      "daily_kwh_per_sqm": 0.247
+    }
+  },
+  "diurnal_load_curves": {
+    "residential": [
+      0.65,
+      0.55,
+      0.5,
+      0.48,
+      0.52,
+      0.7,
+      1.1,
+      1.25,
+      1.15,
+      0.9,
+      0.85,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      0.95,
+      1.05,
+      1.2,
+      1.45,
+      1.6,
+      1.7,
+      1.65,
+      1.3,
+      0.9
+    ],
+    "commercial": [
+      0.15,
+      0.12,
+      0.1,
+      0.1,
+      0.15,
+      0.25,
+      0.5,
+      0.95,
+      1.45,
+      1.7,
+      1.8,
+      1.75,
+      1.65,
+      1.7,
+      1.75,
+      1.7,
+      1.65,
+      1.4,
+      1.05,
+      0.8,
+      0.55,
+      0.35,
+      0.25,
+      0.18
+    ]
+  }
+}

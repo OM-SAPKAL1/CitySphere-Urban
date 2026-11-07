@@ -7,7 +7,7 @@
  */
 
 import { STUDY_AREA_BBOX, DEFAULT_FLOOR_HEIGHT_METERS, FALLBACK_HEIGHTS } from '../../config/city';
-import bkcCityData from '../../assets/bkc_city_data.json';
+import puneCityData from '../../assets/pune_city_data.json';
 import type {
   BuildingFeature,
   RoadFeature,
@@ -16,6 +16,19 @@ import type {
   WaterFeature,
   IntersectionFeature,
 } from '../../types';
+
+interface RawCityBundle {
+  city: string;
+  studyArea: string;
+  buildings?: any[];
+  roads?: any[];
+  intersections?: any[];
+  pois?: any[];
+  parks?: any[];
+  waters?: any[];
+}
+
+const cityData = (puneCityData as unknown) as RawCityBundle;
 
 const OVERPASS_ENDPOINTS = import.meta.env.DEV
   ? [
@@ -49,34 +62,31 @@ interface OverpassResponse {
   elements: OverpassElement[];
 }
 
-async function queryOverpass(query: string, timeoutMs = 10000): Promise<OverpassResponse> {
-  let lastError: Error | null = null;
-
+async function queryOverpass(query: string, timeoutMs = 12000): Promise<OverpassResponse> {
   for (const endpoint of OVERPASS_ENDPOINTS) {
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
-
     try {
-      const response = await fetch(endpoint, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: `data=${encodeURIComponent(query)}`,
-        signal: controller.signal,
+      // Overpass servers handle GET requests much more reliably than concurrent POSTs
+      const url = `${endpoint}?data=${encodeURIComponent(query.trim())}`;
+      const response = await fetch(url, {
+        method: 'GET',
+        headers: {
+          'Accept': 'application/json',
+        },
+        signal: AbortSignal.timeout(timeoutMs),
       });
 
-      clearTimeout(timeoutId);
-
       if (response.ok) {
-        return await response.json();
+        const data = await response.json();
+        if (data && Array.isArray(data.elements)) {
+          return data;
+        }
       }
-      lastError = new Error(`Overpass API error (${endpoint}): ${response.status} ${response.statusText}`);
-    } catch (err: unknown) {
-      clearTimeout(timeoutId);
-      lastError = err instanceof Error ? err : new Error(String(err));
+    } catch {
+      // Try next endpoint silently without spamming console
     }
   }
 
-  throw lastError || new Error('All Overpass API endpoints failed');
+  return { elements: [] };
 }
 
 function buildBBox(): string {
@@ -87,9 +97,14 @@ function buildBBox(): string {
 // ─── Buildings ───
 
 export async function getBuildings(): Promise<BuildingFeature[]> {
+  // 1. Immediately return authentic Pune Shivajinagar–Deccan dataset if available (instant 0ms render)
+  if (cityData.buildings && cityData.buildings.length > 0) {
+    return cityData.buildings as unknown as BuildingFeature[];
+  }
+
   const bbox = buildBBox();
   const query = `
-    [out:json][timeout:10];
+    [out:json][timeout:15];
     (
       way["building"](${bbox});
       relation["building"](${bbox});
@@ -108,11 +123,10 @@ export async function getBuildings(): Promise<BuildingFeature[]> {
       return normalized;
     }
   } catch (err) {
-    console.warn('[CitySphere] Overpass buildings query failed, using authentic OSM BKC cache:', err);
+    console.warn('[CitySphere] Live Overpass buildings query fallback:', err);
   }
 
-  // Fallback to real OSM Bandra Kurla Complex buildings dataset
-  return bkcCityData.buildings as unknown as BuildingFeature[];
+  return (cityData.buildings || []) as unknown as BuildingFeature[];
 }
 
 function normalizeBuilding(el: OverpassElement): BuildingFeature | null {
@@ -155,8 +169,10 @@ function normalizeBuilding(el: OverpassElement): BuildingFeature | null {
     const buildingType = tags['building'] || 'default';
     estimatedHeight = FALLBACK_HEIGHTS[buildingType] || FALLBACK_HEIGHTS['default'];
     const nameLower = (tags['name'] || '').toLowerCase();
-    if (nameLower.includes('tower') || nameLower.includes('centre') || nameLower.includes('center') || nameLower.includes('bkc')) {
-      estimatedHeight = Math.max(estimatedHeight, 48);
+    if (nameLower.includes('mit') || nameLower.includes('college') || nameLower.includes('campus') || nameLower.includes('hostel')) {
+      estimatedHeight = Math.max(estimatedHeight, 18);
+    } else if (nameLower.includes('tower') || nameLower.includes('centre') || nameLower.includes('center')) {
+      estimatedHeight = Math.max(estimatedHeight, 28);
     }
     heightSource = 'estimated';
   }
@@ -198,9 +214,14 @@ function normalizeBuilding(el: OverpassElement): BuildingFeature | null {
 // ─── Roads ───
 
 export async function getRoads(): Promise<RoadFeature[]> {
+  // 1. Immediately return authentic Pune dataset if available
+  if (cityData.roads && cityData.roads.length > 0) {
+    return cityData.roads as unknown as RoadFeature[];
+  }
+
   const bbox = buildBBox();
   const query = `
-    [out:json][timeout:10];
+    [out:json][timeout:15];
     (
       way["highway"~"^(motorway|trunk|primary|secondary|tertiary|residential|service|pedestrian|living_street|unclassified)$"](${bbox});
     );
@@ -218,11 +239,10 @@ export async function getRoads(): Promise<RoadFeature[]> {
       return normalized;
     }
   } catch (err) {
-    console.warn('[CitySphere] Overpass roads query failed, using authentic OSM BKC cache:', err);
+    console.warn('[CitySphere] Live Overpass roads query fallback:', err);
   }
 
-  // Fallback to real OSM Bandra Kurla Complex roads dataset
-  return bkcCityData.roads as unknown as RoadFeature[];
+  return (cityData.roads || []) as unknown as RoadFeature[];
 }
 
 function normalizeRoad(el: OverpassElement): RoadFeature | null {
@@ -258,9 +278,14 @@ function normalizeRoad(el: OverpassElement): RoadFeature | null {
 // ─── POIs ───
 
 export async function getPOIs(): Promise<POIFeature[]> {
+  // 1. Immediately return authentic Pune dataset if available
+  if (cityData.pois && cityData.pois.length > 0) {
+    return cityData.pois as unknown as POIFeature[];
+  }
+
   const bbox = buildBBox();
   const query = `
-    [out:json][timeout:10];
+    [out:json][timeout:15];
     (
       node["amenity"~"^(school|hospital|clinic|college|university|library|place_of_worship|bank|atm|pharmacy|police|fire_station|post_office|fuel|parking|bus_station|cinema|theatre|restaurant|cafe)$"](${bbox});
       node["tourism"~"^(hotel|museum|attraction|viewpoint)$"](${bbox});
@@ -279,10 +304,10 @@ export async function getPOIs(): Promise<POIFeature[]> {
       return normalized;
     }
   } catch (err) {
-    console.warn('[CitySphere] Overpass POIs query failed, using authentic OSM BKC cache:', err);
+    console.warn('[CitySphere] Live Overpass POIs query fallback:', err);
   }
 
-  return bkcCityData.pois as unknown as POIFeature[];
+  return (cityData.pois || []) as unknown as POIFeature[];
 }
 
 function normalizePOI(el: OverpassElement): POIFeature {
@@ -313,9 +338,14 @@ function normalizePOI(el: OverpassElement): POIFeature {
 // ─── Parks ───
 
 export async function getParks(): Promise<ParkFeature[]> {
+  // 1. Immediately return authentic Pune dataset if available
+  if (cityData.parks && cityData.parks.length > 0) {
+    return cityData.parks as unknown as ParkFeature[];
+  }
+
   const bbox = buildBBox();
   const query = `
-    [out:json][timeout:10];
+    [out:json][timeout:15];
     (
       way["leisure"~"^(park|garden|playground|pitch|sports_centre)$"](${bbox});
       way["landuse"~"^(grass|recreation_ground|meadow)$"](${bbox});
@@ -335,10 +365,10 @@ export async function getParks(): Promise<ParkFeature[]> {
       return normalized;
     }
   } catch (err) {
-    console.warn('[CitySphere] Overpass parks query failed, using authentic OSM BKC cache:', err);
+    console.warn('[CitySphere] Live Overpass parks query fallback:', err);
   }
 
-  return bkcCityData.parks as unknown as ParkFeature[];
+  return (cityData.parks || []) as unknown as ParkFeature[];
 }
 
 function normalizePark(el: OverpassElement): ParkFeature | null {
@@ -388,9 +418,14 @@ function normalizePark(el: OverpassElement): ParkFeature | null {
 // ─── Water ───
 
 export async function getWater(): Promise<WaterFeature[]> {
+  // 1. Immediately return authentic Pune dataset if available
+  if (cityData.waters && cityData.waters.length > 0) {
+    return cityData.waters as unknown as WaterFeature[];
+  }
+
   const bbox = buildBBox();
   const query = `
-    [out:json][timeout:10];
+    [out:json][timeout:15];
     (
       way["natural"="water"](${bbox});
       way["water"](${bbox});
@@ -411,10 +446,10 @@ export async function getWater(): Promise<WaterFeature[]> {
       return normalized;
     }
   } catch (err) {
-    console.warn('[CitySphere] Overpass water query failed, using authentic OSM BKC cache:', err);
+    console.warn('[CitySphere] Live Overpass water query fallback:', err);
   }
 
-  return bkcCityData.waters as unknown as WaterFeature[];
+  return (cityData.waters || []) as unknown as WaterFeature[];
 }
 
 function normalizeWater(el: OverpassElement): WaterFeature | null {
@@ -504,14 +539,14 @@ export function deriveIntersections(roads: RoadFeature[]): IntersectionFeature[]
         position: node.position,
         connectedRoads: Array.from(node.roads),
         name,
-        generatedName: name || `BKC Junction J-${String(counter).padStart(3, '0')}`,
+        generatedName: name || `Shivajinagar Junction J-${String(counter).padStart(3, '0')}`,
       });
       counter++;
     }
   }
 
-  if (intersections.length === 0 && bkcCityData.intersections) {
-    return bkcCityData.intersections as unknown as IntersectionFeature[];
+  if (intersections.length === 0 && cityData.intersections) {
+    return cityData.intersections as unknown as IntersectionFeature[];
   }
 
   return intersections;

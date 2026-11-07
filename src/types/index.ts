@@ -21,6 +21,9 @@ export interface BuildingFeature {
     tourism?: string;
     addrStreet?: string;
     addrHouseNumber?: string;
+    floorArea?: number;
+    usableRoofArea?: number;
+    solarCapacityKwp?: number;
     tags: Record<string, string>;
   };
   center: [number, number]; // [lng, lat]
@@ -112,7 +115,7 @@ export interface JunctionPerformance {
   co2PerHour: number;     // kg
   costPerHour: number;    // USD
   historyCost: number[];   // last 60 samples
-  isSimulated: true;       // always true in Phase 1
+  isSimulated: boolean;
 }
 
 export interface CityMetrics {
@@ -120,7 +123,7 @@ export interface CityMetrics {
   vehiclesPerHourAtJunctions: number;
   co2PerHour: number;
   congestionCostPerHour: number;
-  isSimulated: true;
+  isSimulated: boolean;
 }
 
 // ─── Vehicle Types ───

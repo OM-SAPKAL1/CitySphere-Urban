@@ -6,14 +6,14 @@
  */
 
 export const CITY_CENTER = {
-  latitude: 19.0665,
-  longitude: 72.8656,
-  name: 'Mumbai',
-  region: 'Maharashtra, India',
-  studyArea: 'Bandra Kurla Complex',
+  latitude: 18.5246,
+  longitude: 73.8445,
+  name: 'Shivajinagar–Deccan',
+  region: 'Pune, Maharashtra, India',
+  studyArea: 'Shivajinagar–Deccan Urban Corridor',
 };
 
-export const STUDY_AREA_SIZE_METERS = 1000;
+export const STUDY_AREA_SIZE_METERS = 2000;
 
 /** Compute bounding box from center + size */
 export function getBoundingBox(

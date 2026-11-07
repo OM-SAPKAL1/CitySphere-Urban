@@ -8,7 +8,8 @@
  * 4. All UI panels overlaid on the 3D Digital Twin
  */
 
-import React, { useEffect, useRef, useCallback, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+import AppRouter from './routes/AppRouter';
 import { useCityStore } from './stores/cityStore';
 import {
   getBuildings,
@@ -23,16 +24,10 @@ import {
   generateJunctionPerformance,
   generateVehicles,
   updateVehicles,
+  fetchLiveSimulationState,
 } from './services/simulation/simulationService';
-import DigitalTwinScene from './features/digital-twin/DigitalTwinScene';
-import TopBar from './components/TopBar';
-import LeftPanel from './components/LeftPanel';
-import RightPanel from './components/RightPanel';
-import BottomBar from './components/BottomBar';
-import CameraControls from './components/CameraControls';
-import WhatIfScenario from './components/WhatIfScenario';
-import SystemStatus from './components/SystemStatus';
-import LoadingScreen from './components/LoadingScreen';
+// UI Overlays have been moved to DigitalTwin.tsx and AppRouter
+
 
 const App: React.FC = () => {
   const setBuildings = useCityStore((s) => s.setBuildings);
@@ -189,47 +184,20 @@ const App: React.FC = () => {
   useEffect(() => {
     if (!isReady) return;
 
-    const interval = setInterval(() => {
-      const metrics = generateCityMetrics();
-      setCityMetrics(metrics);
-    }, 10000); // Update every 10 seconds
+    const updateMetrics = async () => {
+      const live = await fetchLiveSimulationState();
+      setCityMetrics(live || generateCityMetrics());
+    };
+
+    updateMetrics();
+    const interval = setInterval(updateMetrics, 5000); // Update every 5 seconds
 
     return () => clearInterval(interval);
   }, [isReady, setCityMetrics]);
 
-  // ─── Check if core data loaded ───
-  const coreLoaded = dataState.buildings === 'loaded' && dataState.roads === 'loaded';
-
   return (
-    <div className="w-full h-full relative overflow-hidden bg-cs-bg">
-      {/* Loading Screen */}
-      {!coreLoaded && !dataState.error && <LoadingScreen />}
-      {dataState.error && <LoadingScreen />}
-
-      {/* 3D Digital Twin - Always render once core data available */}
-      {coreLoaded && (
-        <>
-          {/* Main 3D Scene */}
-          <DigitalTwinScene />
-
-          {/* Rain effect overlay */}
-          {rainSimulation && <div className="rain-overlay" />}
-
-          {/* UI Overlay */}
-          <TopBar />
-          <LeftPanel />
-          <RightPanel />
-          <BottomBar />
-          <CameraControls />
-          <WhatIfScenario />
-          <SystemStatus />
-
-          {/* OSM Attribution */}
-          <div className="fixed bottom-1 left-1/2 -translate-x-1/2 z-10 text-[8px] text-slate-500/70 font-medium tracking-wide">
-            © OpenStreetMap contributors
-          </div>
-        </>
-      )}
+    <div className="w-full h-full text-slate-800 font-sans">
+      <AppRouter />
     </div>
   );
 };

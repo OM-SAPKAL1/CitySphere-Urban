@@ -60,6 +60,10 @@ interface CityStore {
   toggleLayer: (id: string) => void;
   setLayers: (layers: LayerConfig[]) => void;
 
+  // ─── Camera Actions ───
+  cameraAction: { action: 'zoomIn' | 'zoomOut' | 'reset' | null; timestamp: number };
+  triggerCameraAction: (action: 'zoomIn' | 'zoomOut' | 'reset') => void;
+
   // ─── City State (Simulated) ───
   cityMetrics: CityMetrics;
   setCityMetrics: (m: CityMetrics) => void;
@@ -175,6 +179,8 @@ export const useCityStore = create<CityStore>((set, get) => ({
   setViewMode: (viewMode) => set({ viewMode }),
   cameraView: 'isometric',
   setCameraView: (cameraView) => set({ cameraView }),
+  cameraAction: { action: null, timestamp: 0 },
+  triggerCameraAction: (action) => set({ cameraAction: { action, timestamp: Date.now() } }),
 
   // Layers
   layers: DEFAULT_LAYERS,

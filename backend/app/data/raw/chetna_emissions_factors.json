@@ -1,0 +1,63 @@
+{
+  "source": "CHETNA-Road (CSTEP) Emissions Inventory & ARAI Pune Fleet Factors",
+  "fleet_reference_city": "Pune Metropolitan Region",
+  "emission_factors_g_per_km": {
+    "two_wheeler": {
+      "co2": 28.5,
+      "pm25": 0.035,
+      "nox": 0.22,
+      "fuel": "petrol"
+    },
+    "car": {
+      "co2": 145.0,
+      "pm25": 0.048,
+      "nox": 0.42,
+      "fuel": "petrol_diesel_cng_mix"
+    },
+    "auto_rickshaw": {
+      "co2": 82.0,
+      "pm25": 0.012,
+      "nox": 0.35,
+      "fuel": "cng_dominant"
+    },
+    "bus": {
+      "co2": 780.0,
+      "pm25": 0.45,
+      "nox": 4.8,
+      "fuel": "cng_diesel_ev_mix"
+    },
+    "truck_lcv": {
+      "co2": 450.0,
+      "pm25": 0.38,
+      "nox": 3.6,
+      "fuel": "diesel"
+    }
+  },
+  "speed_correction_table": [
+    {
+      "speed_min": 0,
+      "speed_max": 10,
+      "factor": 1.75
+    },
+    {
+      "speed_min": 10,
+      "speed_max": 20,
+      "factor": 1.35
+    },
+    {
+      "speed_min": 20,
+      "speed_max": 40,
+      "factor": 1.0
+    },
+    {
+      "speed_min": 40,
+      "speed_max": 60,
+      "factor": 0.95
+    },
+    {
+      "speed_min": 60,
+      "speed_max": 100,
+      "factor": 1.15
+    }
+  ]
+}

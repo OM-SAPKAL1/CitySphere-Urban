@@ -1,0 +1,19 @@
+{
+  "source": "Pune Municipal Corporation Solid Waste Management Department (SWM) Annual Report",
+  "ward_office": "Ghole Road Ward Office (Prabhag 14)",
+  "generation_benchmarks": {
+    "domestic_kg_per_capita_per_day": 0.48,
+    "commercial_kg_per_sqm_per_day": 0.0047,
+    "floating_population_kg_per_person_per_day": 0.12
+  },
+  "segregation_fractions": {
+    "wet_organic_waste_pct": 62.0,
+    "dry_recyclable_pct": 31.0,
+    "inert_hazardous_pct": 7.0
+  },
+  "collection_operations": {
+    "primary_collection_start_hour": 6.5,
+    "primary_collection_end_hour": 11.5,
+    "daily_collection_efficiency_pct": 92.5
+  }
+}
