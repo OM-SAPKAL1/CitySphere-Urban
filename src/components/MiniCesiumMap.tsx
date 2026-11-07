@@ -1,6 +1,6 @@
-import React from 'react';
-import { Viewer, UrlTemplateImageryProvider } from 'resium';
-import { Cartesian3 } from 'cesium';
+import React, { useMemo } from 'react';
+import { Viewer, ImageryLayer } from 'resium';
+import { Cartesian3, UrlTemplateImageryProvider } from 'cesium';
 import { CITY_CENTER } from '../config/city';
 
 export const MiniCesiumMap: React.FC = () => {
@@ -9,6 +9,15 @@ export const MiniCesiumMap: React.FC = () => {
     CITY_CENTER.longitude,
     CITY_CENTER.latitude,
     2000 // camera height in meters
+  );
+
+  const imageryProvider = useMemo(
+    () =>
+      new UrlTemplateImageryProvider({
+        url: 'https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
+        credit: '© CartoDB',
+      }),
+    []
   );
 
   return (
@@ -24,13 +33,9 @@ export const MiniCesiumMap: React.FC = () => {
         geocoder={false}
         infoBox={false}
         selectionIndicator={false}
-        // Dark CartoDB basemap
-        imageryProvider={new UrlTemplateImageryProvider({
-          url: 'https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
-          credit: '© CartoDB',
-        })}
+        baseLayer={false}
       >
-        {/* No data sources – just a styled basemap preview */}
+        <ImageryLayer imageryProvider={imageryProvider} />
       </Viewer>
     </div>
   );
